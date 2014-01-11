@@ -21,6 +21,11 @@
 		92834D6318810C2D00377052 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92834D4518810C2D00377052 /* UIKit.framework */; };
 		92834D6B18810C2D00377052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92834D6918810C2D00377052 /* InfoPlist.strings */; };
 		92834D6D18810C2D00377052 /* SESampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92834D6C18810C2D00377052 /* SESampleTests.m */; };
+		92834D7C18810E3500377052 /* SEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92834D7B18810E3500377052 /* SEManager.m */; };
+		92834D7E188111FE00377052 /* yeah.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 92834D7D188111FE00377052 /* yeah.m4a */; };
+		92834D811881130500377052 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 92834D7F1881130500377052 /* button1.png */; };
+		92834D821881130500377052 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 92834D801881130500377052 /* button2.png */; };
+		92834D841881137D00377052 /* boo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 92834D831881137D00377052 /* boo.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		92834D6818810C2D00377052 /* SESampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SESampleTests-Info.plist"; sourceTree = "<group>"; };
 		92834D6A18810C2D00377052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92834D6C18810C2D00377052 /* SESampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SESampleTests.m; sourceTree = "<group>"; };
+		92834D7A18810E3500377052 /* SEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEManager.h; sourceTree = "<group>"; };
+		92834D7B18810E3500377052 /* SEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEManager.m; sourceTree = "<group>"; };
+		92834D7D188111FE00377052 /* yeah.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yeah.m4a; sourceTree = "<group>"; };
+		92834D7F1881130500377052 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		92834D801881130500377052 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		92834D831881137D00377052 /* boo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = boo.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,10 @@
 		92834D3518810C2D00377052 = {
 			isa = PBXGroup;
 			children = (
+				92834D7F1881130500377052 /* button1.png */,
+				92834D801881130500377052 /* button2.png */,
+				92834D7D188111FE00377052 /* yeah.m4a */,
+				92834D831881137D00377052 /* boo.m4a */,
 				92834D4718810C2D00377052 /* SESample */,
 				92834D6618810C2D00377052 /* SESampleTests */,
 				92834D4018810C2D00377052 /* Frameworks */,
@@ -117,6 +132,8 @@
 				92834D5318810C2D00377052 /* Main.storyboard */,
 				92834D5618810C2D00377052 /* ViewController.h */,
 				92834D5718810C2D00377052 /* ViewController.m */,
+				92834D7A18810E3500377052 /* SEManager.h */,
+				92834D7B18810E3500377052 /* SEManager.m */,
 				92834D5918810C2D00377052 /* Images.xcassets */,
 				92834D4818810C2D00377052 /* Supporting Files */,
 			);
@@ -228,8 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92834D841881137D00377052 /* boo.m4a in Resources */,
 				92834D5A18810C2D00377052 /* Images.xcassets in Resources */,
 				92834D4C18810C2D00377052 /* InfoPlist.strings in Resources */,
+				92834D821881130500377052 /* button2.png in Resources */,
+				92834D7E188111FE00377052 /* yeah.m4a in Resources */,
+				92834D811881130500377052 /* button1.png in Resources */,
 				92834D5518810C2D00377052 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92834D5818810C2D00377052 /* ViewController.m in Sources */,
+				92834D7C18810E3500377052 /* SEManager.m in Sources */,
 				92834D5218810C2D00377052 /* AppDelegate.m in Sources */,
 				92834D4E18810C2D00377052 /* main.m in Sources */,
 			);
